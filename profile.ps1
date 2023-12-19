@@ -14,5 +14,5 @@ function prompt {
     $base = "$([char]27)[38;2;176;222;227m$current_dir"
     $branch = get_branch
     $full = $base + $branch + "$([char]27)[39;49m $ "
-    return full
+    return $full
 }
